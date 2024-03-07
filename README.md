@@ -14,3 +14,7 @@ after the user created .user can view all the courses which are added by the adm
 the viewed id is copied and sent as a header and after the usermiddleware validation if the user accepts the course moves to the array which is created in the database.
 
 
+V2.0
+few valiadtions and libraries are added to the previous version
+json web tokens and zod are used in this code for the validation of the user and authentication of the user this is more secure than the previous code.
+few changes were made  to the database schema of the user and admin a new auth id is added and the middle ware requests the auth code in the headers when a valid auth code is given by the admin/user it validate and authenticates the valid thing done 
